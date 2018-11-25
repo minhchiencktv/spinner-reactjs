@@ -11,7 +11,6 @@ class Spinner extends Component {
         return (
             <div className="spinner">
                 <div className="spinner-circle">
-                    
                 </div>
             </div>
         )

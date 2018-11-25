@@ -1,21 +1,28 @@
-.spinner { 
-    .spinner-circle {
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        border-top: 5px solid #2f75bb;
-        border-bottom: 5px solid #a1abb5;
-        border-left: 5px solid #a1abb5;
-        border-right: 5px solid #2f75bb;
-        animation: circle 1s linear;
-        animation-iteration-count: infinite;
-    }
-    @keyframes circle {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(360deg)
-        }
-    }
+//colors
+$color_mariner_approx: #2f75bb;
+$color_hit_gray_approx: #a1abb5;
+// border width
+$border_width: 10px;
+
+.spinner {
+	position: absolute;
+	.spinner-circle {
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		border-top: $border_width solid $color_mariner_approx;
+		border-bottom: $border_width solid $color_hit_gray_approx;
+		border-left: $border_width solid $color_hit_gray_approx;
+		border-right: $border_width solid $color_hit_gray_approx;
+		animation: circle 1s linear;
+		animation-iteration-count: infinite;
+	}
+}
+@keyframes circle {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
