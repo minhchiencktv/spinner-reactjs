@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Spinner from './spinner/Spinner';
 import DataTable from './data-table/dataTable';
 import data_mock from '../src/data.json';
 
