@@ -6,12 +6,8 @@ import data_mock from '../src/data.json';
 
 class App extends Component {
 
-  constructor(props){
-    super(props);
-  }
-
-  delete(o) {
-    console.log(o);
+  delete(item) {
+    console.log(item);
   }
 
   render() {

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import './styles.scss';
-import { isFunction } from 'util';
-
 
 class DataTable extends Component {
 	constructor(props) {
