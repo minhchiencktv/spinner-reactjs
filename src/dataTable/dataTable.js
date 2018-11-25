@@ -40,5 +40,4 @@ class DataTable extends Component {
 		)
 	}
 }
-
 export default DataTable;
